@@ -1,0 +1,330 @@
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:600|Staatliches&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="js/main.js"></script>
+    </head>
+
+    <body>
+        <div id="all">
+            <header>
+            </header>
+
+            <div id="maintopic">
+
+                <h1>Mountains</h1>
+
+                <div id="options">
+                    <h3 class="btn_types">Types</h3>
+                    <h3 class="btn_uses">Uses</h3>
+                    <h3 class="btn_summits">7 Summits</h3>
+                    <h3 class="btn_facts">6 Facts</h3>
+
+                </div>
+
+            </div>
+
+            <div id="types">
+                <h2>Types</h2>
+                <p>There are five kinds of mountains.<br>Click to find out how they form!</p>
+
+                <div class="options">
+                    <h3 id="fold">Fold Mountains</h3>
+                    <h3 id="block">Block Mountains</h3>
+                    <h3 id="dome">Dome Mountains</h3>
+                    <h3 id="volcanic">Volcanic Mountains</h3>
+                    <h3 id="plateau">Plateau Mountains</h3>
+                </div>
+
+                <div class="popup">
+                    <div id="fold-info">
+                        <h3>Fold Mountains</h3>
+
+                        <div class="animatedimage">
+                            <img id="f1" src="assets/fold1.png">
+                            <img id="f2" src="assets/fold2.svg">
+                            <img id="f3" src="assets/fold3.svg">
+                            <img id="f4" src="assets/fold4.svg">
+                        </div>
+
+                        <p>These mountains form when two plates collide head on and their edges crumple, much like how a piece of paper folds when pushed together.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="block-info">
+                        <h3>Block Mountains</h3>
+
+                        <div class="animatedimage">
+                            <img id="b1" src="assets/block1.svg">
+                            <img id="b2" src="assets/block2.svg">
+                            <img id="b3" src="assets/block3.svg">
+                            <img id="b4" src="assets/block4.svg">
+                        </div>
+
+                        <p>These mountains form when faults or cracks in the earth's crust force some materials or blocks of rock up and others down.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="dome-info">
+                        <h3>Dome Mountains</h3>
+
+                        <div class="animatedimage">
+                            <img id="d1" src="assets/dome1.svg">
+                            <img id="d2" src="assets/dome2.svg">
+                            <img id="d3" src="assets/dome3.svg">
+                            <img id="d4" src="assets/dome4.svg">
+                        </div>
+
+                        <p>These mountains form when a great amount of magma pushes the rock layers above it up without erupting onto the surface then cools into hardened rock.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="volcanic-info">
+                        <h3>Volcanic Mountains</h3>
+
+                        <div class="animatedimage">
+                            <img id="v1" src="assets/volcanic1.svg">
+                            <img id="v2" src="assets/volcanic2.svg">
+                            <img id="v3" src="assets/volcanic3.svg">
+                            <img id="v4" src="assets/volcanic4.svg">
+                            <img id="v5" src="assets/volcanic5.svg">
+                            <img id="v6" src="assets/volcanic6.svg">
+                        </div>
+
+                        <p>These mountains are formed when magma erupts and piles upon the surface creating many layers that when cooled, builds a cone of rock.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="plateau-info">
+                        <h3>Plateau Mountains</h3>
+
+                        <div class="animatedimage">
+                            <img id="p1" src="assets/plateau1.svg">
+                            <img id="p2" src="assets/plateau2.svg">
+                            <img id="p3" src="assets/plateau3.svg">
+                            <img id="p4" src="assets/plateau4.svg">
+                        </div>
+
+                        <p>These mountains are formed by erosion. As years pass, streams and rivers erode valleys through the plateau, leaving mountains standing between the valleys.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="uses">
+                <h2>Uses</h2>
+                <p>There are four common uses of mountains. Click to find out more!</p>
+
+                <div class="options">
+                    <h3 id="tourism">Tourism</h3>
+                    <h3 id="farming">Farming</h3>
+                    <h3 id="civilisation">Civilisation</h3>
+                    <h3 id="companies">Companies</h3>
+                </div>
+
+                <div class="popup">
+                    <div id="tourism-info">
+                        <h3>Tourism</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/tourism.png">
+                        <p>Climbers and tourists visit them for the scenery and beautiful environment.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="farming-info">
+                        <h3>Farming</h3>
+                        <img src="assets/farming.jpg">
+                        <p>The mountain soil with volcanic ash is very fertile and great for farming.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="civilisation-info">
+                        <h3>Civilisation</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/civilisation.jpg">
+                        <p>People living near mountains use the spring water for their daily needs.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="companies-info">
+                        <h3>Companies</h3>
+                        <img src="assets/companies.png">
+                        <p>Forestry companies grow coniferous forests and harvest wood on them.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="summits">
+                <h2>7 Summits</h2>
+                <p>The 7 Summits (Messner) are the highest peaks in each of the 7 continents. Click to find out more!</p>
+
+                <div class="options">
+                    <h3 id="asia">Asia</h3>
+                    <h3 id="south">South America</h3>
+                    <h3 id="north">North America</h3>
+                    <h3 id="europe">Europe</h3>
+                    <h3 id="antartica">Antartica</h3>
+                    <h3 id="africa">Africa</h3>
+                    <h3 id="oceania">Oceania</h3>
+                </div>
+
+                <div class="popup">
+                    <div id="asia-info">
+                        <h3>Asia</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/everest.png">
+                        <p><strong>Mount Everest</strong></p> 
+                        <p>Located in Nepal<br>Elevation: 8,848m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="south-info">
+                        <h3>South America</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/aconcagua.png">
+                        <p><strong>Aconcagua</strong></p>
+                        <p>Located in Argentina<br>Elevation: 6,960m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="north-info">
+                        <h3>North America</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/denali.png">
+                        <p><strong>Mount McKinley</strong></p>
+                        <p>Located in USA<br>Elevation: 6190m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="europe-info">
+                        <h3>Europe</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/elbrus.png">
+                        <p><strong>Mount Elbrus</strong></p>
+                        <p>Located in Russia<br>Elevation: 5,642m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="antartica-info">
+                        <h3>Antartica</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/vinson.png">
+                        <p><strong>Vinson Massif</strong></p>
+                        <p>Located in Antartica<br>Elevation: 4,892m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="africa-info">
+                        <h3>Africa</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/kilimanjaro.png">
+                        <p><strong>Mount Kilimanjaro</strong></p>
+                        <p>Located in Tanzania<br>Elevation: 5,895m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="oceania-info">
+                        <h3>Oceania</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/carstensz.png">
+                        <p><strong>Puncak Jaya</strong></p>
+                        <p>Located in Indonesia<br>Elevation: 4,884m</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="facts">
+                <h2>6 Facts</h2>
+                <p>Here are 6 additional facts that might interest you. Click to find out more!</p>
+
+                <div class="options">
+                    <h3 id="fact1">1</h3>
+                    <h3 id="fact2">2</h3>
+                    <h3 id="fact3">3</h3>
+                    <h3 id="fact4">4</h3>
+                    <h3 id="fact5">5</h3>
+                    <h3 id="fact6">6</h3>
+                </div>
+
+                <div class="popup">
+                    <div id="f1-info">
+                        <h3>Fact 1</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/fact1.png">
+                        <p>Mountains are known to be able to slow down storms moving from the ocean, causing rain to drop.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="f2-info">
+                        <h3>Fact 2</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/fact2.png">
+                        <p>One side of a mountain is usually known to be drier than the other side.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="f3-info">
+                        <h3>Fact 3</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/fact3.png">
+                        <p>Mountains make up about one-fifth of the world's landscape, and provide homes to at least one-tenth of the world's people.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="f4-info">
+                        <h3>Fact 4</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/fact4.png">
+                        <p>The tallest known mountain in the solar system is Olympus Mons, which is located on Mars.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="f5-info">
+                        <h3>Fact 5</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/fact5.png">
+                        <p>Mountains occur more often in oceans than on land; some islands are the peaks of mountains coming out of the water.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+
+                    <div id="f6-info">
+                        <h3>Fact 6</h3>
+                        <!--it hurts me if i reduce the image size further-->
+                        <img src="assets/fact6.png">
+                        <p>About 80 per cent of our planet's fresh water is known to originate in the mountains.</p>
+                        <div class="cancel"><img src="https://img.icons8.com/ios/40/000000/multiply.png"></div>
+                    </div>
+                </div>
+
+            </div>
+            <footer id="navcontrols">
+                <div  id="btn_next"><img src="https://img.icons8.com/ios/23/000000/forward.png"></div>
+                <div id="btn_prev"><img src="https://img.icons8.com/ios/23/000000/back.png"></div>
+
+                <div id="btn_menu"><img src="https://img.icons8.com/ios/28/000000/mountain.png"></div>
+                <div id="btn_close"><img src="https://img.icons8.com/ios/28/000000/mountain.png"></div>
+
+            </footer>
+
+            <div id="menu">
+                <button id="btn_home">Home</button>
+                <button class="btn_types">Types</button>
+                <button class="btn_uses">Uses</button>
+                <button class="btn_summits">7 Summits</button>
+                <button class="btn_facts">6 Facts</button>
+            </div>
+
+        </div>
+        <audio autoplay loop>
+            <source src="assets/wind.mp3" type="audio/mpeg">
+        </audio>
+    </body>
+
+</html>

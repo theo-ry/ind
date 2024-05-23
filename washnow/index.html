@@ -1,0 +1,120 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link href="https://fonts.googleapis.com/css?family=Calistoga&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <meta name="theme-color" content="#fafafa">
+
+        <script src="js/vendor/modernizr-3.7.1.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="js/TweenMax.min.js"></script>
+        <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+        <script src="js/plugins.js"></script>        
+        <script src="js/main.js"></script>
+
+
+    </head>
+
+    <body>
+        <!--[if IE]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
+
+        <!-- Add your site or application content here -->
+
+        <div id="wherepage" class="container">
+            <div class="marginthing">
+                <div id="dropdown">
+                    <div class="title">Where?</div>
+                    <div class="bar"></div>
+                    <div class="descr">Where will you wash your clothes?</div>
+
+                    <div id="select" class="roundstuff">Select an area</div>
+                    <div id="where" class="hide roundstuff">
+                        <div id="central" class="line">Central</div>
+                        <div id="north" class="line">North</div>
+                        <div id="south" class="line">South</div>
+                        <div id="east" class="line">East</div>
+                        <div id="west">West</div>
+                    </div>
+                </div>
+            </div>
+            <div class="map"></div>
+        </div>
+
+        <div id="whatpage1" class="container hide">
+            <div class="marginthing">
+                <div class="title">What?</div>
+                <div class="bar"></div>
+                <div class="descr">What will you be washing?</div>
+
+                <div id="clickthin" class="card flex roundstuff">Thin clothing<div class="icon cloththin"></div></div>
+                <div id="clickthick" class="card flex roundstuff">Thick clothing<div class="icon cloththick"></div></div>
+            </div>
+            <div class="clothes"></div>
+        </div>
+
+        <div id="whatpage2" class="container hide">
+            <div class="marginthing">
+                <div class="title">What?</div>
+                <div class="bar"></div>
+                <div class="descr">What will you be washing?</div>
+
+                <div id="clicklight" class="card flex roundstuff">Light clothing<div class="icon clothlight"></div></div>
+                <div id="clickdark" class="card flex roundstuff">Dark clothing<div class="icon clothdark"></div></div>
+            </div>
+            <div class="clothes"></div>
+        </div>
+
+        <div id="good" class="container hide">
+            <div class="marginthing">
+                <div class="popup roundstuff flex">
+                    <div class="thing">It is a good idea 
+                        to wash now!</div>
+                    <div class="img weather happysun"></div>
+                    <div class="clickrestart roundstuff">Restart</div>
+                </div>
+            </div>
+        </div>
+
+        <div id="bad" class="container hide">
+            <div class="marginthing">
+                <div class="popup roundstuff flex">
+                    <div class="thing">It is a bad idea 
+                        to wash now!</div>
+                    <div class="img weather sadcloud"></div>
+                    <div class="clickrestart roundstuff">Restart</div>
+                </div>
+            </div>
+        </div>
+
+        <!--
+<div class="container">
+<div class="now"></div>
+<div class="fourdays">
+
+</div>
+<div class="moreinfo">
+<div class="close">[X]</div>
+<div class="info">Info</div>
+</div>
+</div>
+-->
+
+    </body>
+
+</html>
